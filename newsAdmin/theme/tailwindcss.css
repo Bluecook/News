@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* 默认 */
+  :root {
+    /* 背景颜色 */
+    --color-bg-base: 240, 240, 240;
+    /* menu背景颜色 */
+    --color-bg-menu: 255, 255, 255;
+    /* 中间的背景颜色 */
+    --color-bg-main: 200, 200, 200;
+    /* 字体颜色 */
+    --color-text-base: 0, 0, 0;
+    /* menu鼠标经过背景颜色 */
+    --color-menu-hover: 236, 245, 255;
+  }
+  /* 暗黑 */
+  .theme-dark {
+    /* 背景颜色 */
+    --color-bg-base: 9, 9, 9;
+    /* menu背景颜色 */
+    --color-bg-menu: 67, 67, 67;
+    /* 中间的背景颜色 */
+    --color-bg-main: 100, 100, 100;
+    /* 字体颜色 */
+    --color-text-base: 250, 250, 250;
+    /* menu鼠标经过背景颜色 */
+    --color-menu-hover: 90, 90, 90;
+  }
+}
