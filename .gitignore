@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 **/demo.html
+/img/*
 
 # Editor directories and files
 .vscode/*

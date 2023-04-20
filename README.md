@@ -1,3 +1,9 @@
+##### 克隆项目到本地
+
+```
+git@github.com:Bluecook/News.git
+```
+
 ##### 后端：express+MySQL
 
 1. 下载Node项目所需依赖
